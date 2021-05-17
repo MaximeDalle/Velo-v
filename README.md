@@ -6,7 +6,7 @@ record.py queries the REST API "Stations Vélo'v de la Métropole de Lyon" in a 
 
 Future updates will make it possible to visualize the availability of terminals in real time, and to visualize their evolution over a given time period.
 
-######################################################################################################
+########################################################################################
 
 Ce projet fait partie d'un projet de formation ayant pour objectif d'étudier et de rendre compte des usages des transports publics.
 
