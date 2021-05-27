@@ -3,7 +3,6 @@ import math
 from math import sin, cos, sqrt, atan2, radians
 from datetime import datetime as dt
 import requests as rq
-import schedule
 import time
 import pandas as pd
 import folium
