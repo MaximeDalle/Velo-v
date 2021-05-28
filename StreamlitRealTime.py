@@ -3,6 +3,7 @@ import math
 from math import sin, cos, sqrt, atan2, radians
 from datetime import datetime as dt
 import requests as rq
+import schedule
 import time
 import pandas as pd
 import folium
@@ -115,7 +116,7 @@ def main():
 	# TITLES AND BUTTONS
 	st.title("Disponibilité des bornes Velo'v")
 
-	def_address = "Je saisie une adresse... (optionnel)"
+	def_address = "Je saisis une adresse... (optionnel)"
 	address = st.text_input("", def_address)
 
 	st.write("Je cherche...")
